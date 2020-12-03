@@ -1,0 +1,208 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.2": {
+      "Microsoft.Web.WebView2/1.0.674-prerelease": {
+        "type": "package",
+        "compile": {
+          "lib/net462/Microsoft.Web.WebView2.Core.dll": {},
+          "lib/net462/Microsoft.Web.WebView2.WinForms.dll": {},
+          "lib/net462/Microsoft.Web.WebView2.Wpf.dll": {}
+        },
+        "runtime": {
+          "lib/net462/Microsoft.Web.WebView2.Core.dll": {},
+          "lib/net462/Microsoft.Web.WebView2.WinForms.dll": {},
+          "lib/net462/Microsoft.Web.WebView2.Wpf.dll": {}
+        },
+        "build": {
+          "build/Microsoft.Web.WebView2.targets": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win-arm/native/WebView2Loader.dll": {
+            "assetType": "native",
+            "rid": "win-arm"
+          },
+          "runtimes/win-x64/native/WebView2Loader.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/WebView2Loader.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win": {
+      "Microsoft.Web.WebView2/1.0.674-prerelease": {
+        "type": "package",
+        "compile": {
+          "lib/net462/Microsoft.Web.WebView2.Core.dll": {},
+          "lib/net462/Microsoft.Web.WebView2.WinForms.dll": {},
+          "lib/net462/Microsoft.Web.WebView2.Wpf.dll": {}
+        },
+        "runtime": {
+          "lib/net462/Microsoft.Web.WebView2.Core.dll": {},
+          "lib/net462/Microsoft.Web.WebView2.WinForms.dll": {},
+          "lib/net462/Microsoft.Web.WebView2.Wpf.dll": {}
+        },
+        "build": {
+          "build/Microsoft.Web.WebView2.targets": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win-x64": {
+      "Microsoft.Web.WebView2/1.0.674-prerelease": {
+        "type": "package",
+        "compile": {
+          "lib/net462/Microsoft.Web.WebView2.Core.dll": {},
+          "lib/net462/Microsoft.Web.WebView2.WinForms.dll": {},
+          "lib/net462/Microsoft.Web.WebView2.Wpf.dll": {}
+        },
+        "runtime": {
+          "lib/net462/Microsoft.Web.WebView2.Core.dll": {},
+          "lib/net462/Microsoft.Web.WebView2.WinForms.dll": {},
+          "lib/net462/Microsoft.Web.WebView2.Wpf.dll": {}
+        },
+        "native": {
+          "runtimes/win-x64/native/WebView2Loader.dll": {}
+        },
+        "build": {
+          "build/Microsoft.Web.WebView2.targets": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win-x86": {
+      "Microsoft.Web.WebView2/1.0.674-prerelease": {
+        "type": "package",
+        "compile": {
+          "lib/net462/Microsoft.Web.WebView2.Core.dll": {},
+          "lib/net462/Microsoft.Web.WebView2.WinForms.dll": {},
+          "lib/net462/Microsoft.Web.WebView2.Wpf.dll": {}
+        },
+        "runtime": {
+          "lib/net462/Microsoft.Web.WebView2.Core.dll": {},
+          "lib/net462/Microsoft.Web.WebView2.WinForms.dll": {},
+          "lib/net462/Microsoft.Web.WebView2.Wpf.dll": {}
+        },
+        "native": {
+          "runtimes/win-x86/native/WebView2Loader.dll": {}
+        },
+        "build": {
+          "build/Microsoft.Web.WebView2.targets": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.Web.WebView2/1.0.674-prerelease": {
+      "sha512": "Q1XaHIHQ6g43w40LMu/cMI3Egw/IL8A8Pcgi4vZyNNxe6C699m+tXzt2X9BlmsDeVmbv68BSJcs/u5NCBubsIw==",
+      "type": "package",
+      "path": "microsoft.web.webview2/1.0.674-prerelease",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "WebView2.idl",
+        "WebView2.tlb",
+        "WebView2Experimental.idl",
+        "WebView2Experimental.tlb",
+        "build/Microsoft.Web.WebView2.targets",
+        "build/arm64/WebView2Loader.dll",
+        "build/native/Microsoft.Web.WebView2.targets",
+        "build/native/arm64/WebView2Guid.lib",
+        "build/native/arm64/WebView2Loader.dll",
+        "build/native/arm64/WebView2Loader.dll.lib",
+        "build/native/arm64/WebView2LoaderStatic.lib",
+        "build/native/include/WebView2.h",
+        "build/native/include/WebView2EnvironmentOptions.h",
+        "build/native/include/WebView2Experimental.h",
+        "build/native/include/WebView2ExperimentalEnvironmentOptions.h",
+        "build/native/x64/WebView2Guid.lib",
+        "build/native/x64/WebView2Loader.dll",
+        "build/native/x64/WebView2Loader.dll.lib",
+        "build/native/x64/WebView2LoaderStatic.lib",
+        "build/native/x86/WebView2Guid.lib",
+        "build/native/x86/WebView2Loader.dll",
+        "build/native/x86/WebView2Loader.dll.lib",
+        "build/native/x86/WebView2LoaderStatic.lib",
+        "build/x64/WebView2Loader.dll",
+        "build/x86/WebView2Loader.dll",
+        "lib/net462/Microsoft.Web.WebView2.Core.dll",
+        "lib/net462/Microsoft.Web.WebView2.Core.xml",
+        "lib/net462/Microsoft.Web.WebView2.WinForms.dll",
+        "lib/net462/Microsoft.Web.WebView2.WinForms.xml",
+        "lib/net462/Microsoft.Web.WebView2.Wpf.dll",
+        "lib/net462/Microsoft.Web.WebView2.Wpf.xml",
+        "lib/netcoreapp3.0/Microsoft.Web.WebView2.Core.dll",
+        "lib/netcoreapp3.0/Microsoft.Web.WebView2.Core.xml",
+        "lib/netcoreapp3.0/Microsoft.Web.WebView2.WinForms.dll",
+        "lib/netcoreapp3.0/Microsoft.Web.WebView2.WinForms.xml",
+        "lib/netcoreapp3.0/Microsoft.Web.WebView2.Wpf.dll",
+        "lib/netcoreapp3.0/Microsoft.Web.WebView2.Wpf.xml",
+        "microsoft.web.webview2.1.0.674-prerelease.nupkg.sha512",
+        "microsoft.web.webview2.nuspec",
+        "runtimes/win-arm/native/WebView2Loader.dll",
+        "runtimes/win-x64/native/WebView2Loader.dll",
+        "runtimes/win-x86/native/WebView2Loader.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.2": [
+      "Microsoft.Web.WebView2 >= 1.0.674-prerelease"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\didon\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\didon\\source\\repos\\TestWPF\\TestWPF\\TestWPF.csproj",
+      "projectName": "TestWPF",
+      "projectPath": "C:\\Users\\didon\\source\\repos\\TestWPF\\TestWPF\\TestWPF.csproj",
+      "packagesPath": "C:\\Users\\didon\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\didon\\source\\repos\\TestWPF\\TestWPF\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "C:\\Users\\didon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net472"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://www.nuget.org/api/v2/": {}
+      },
+      "frameworks": {
+        "net472": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net472": {
+        "dependencies": {
+          "Microsoft.Web.WebView2": {
+            "target": "Package",
+            "version": "[1.0.674-prerelease, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}
